@@ -13,7 +13,7 @@ const orderApi = require('./routers/api')
 
 
 
-app.use(cors({origin:"*"}))
+app.use(cors({origin:"https://temp.shuhaib.host"}))
 db.dbConnect()
 app.use(logger('dev'));
 app.use(express.json());
